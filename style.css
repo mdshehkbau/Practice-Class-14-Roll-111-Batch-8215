@@ -1,0 +1,314 @@
+/* Globle CSS */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 22px; 
+    padding: 20px 0;
+}
+h4 {
+    text-transform: capitalize; 
+}
+p {
+    padding: 30px 0;
+}
+
+hr {
+    width: 90px;
+    margin: auto;
+    border: 2.5px solid;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* Layout CSS  */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.row {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+}
+
+
+/* Header Part CSS  */
+header {
+    width: 100%;
+    background-color: #86509C;
+    text-align: center;
+    color: #fff;
+    padding: 50px 0;
+}
+header .menu-part ul li {
+    display: inline-block;
+}
+header .menu-part ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+header .menu-part ul .active a,
+header .menu-part ul li:hover a {
+    background-color: #633B7A;
+}
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 40px ;
+}
+.hero-part {
+    padding: 80px 0;
+}
+.button {
+    padding: 15px 55px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+header .button {
+    border-bottom: 5px solid #c86a40;
+    font-size: 20px;
+    background-color: #eb7d4b;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+}
+header .button:hover {
+    background: #18C2A5;
+    border-bottom: 5px solid #12A68B;
+}
+
+/* Setvices Part CSS  */
+.services {
+    width: 100%;
+    background-color: #18C2A5;
+    color: #fff;
+    padding: 40px 0 40px;
+}
+.services hr {
+    color: #12A68B;
+}
+
+/* Team Part CSS  */
+.team {
+    background-color: #E7F2F8;
+    color: #414D5B;
+    padding: 40px 0 40px;
+    text-align: center;
+}
+.team hr {
+	color: #c8d9e5;
+}
+.team img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.social-icons ul li {
+	padding: 0 4px;
+	display: inline-block;
+} 
+
+.social-icons ul li a {
+    display: inline-block;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color:#bdd1df;
+	color: #FFFFFF;
+	transition: .3s;
+} 
+.social-icons ul li a i {
+    display: inline-block;
+    font-size: 15px;
+    padding-top: 5px;
+}
+.social-icons ul li a:hover {
+	transform: rotate(120deg);
+	background-color: blue;
+	color: #f57b71;
+} 
+
+/* Skills Part CSS  */
+.skill {
+    color: #3A4860;
+    padding: 40px 0 40px;
+}
+
+/* Portfolio Part CSS  */
+.portfolio {
+    background-color: #FFDD99;
+    color: #333937;
+    padding: 90px 0 ;
+}
+.portfolio-menu li {
+    display: inline-block;
+}
+.portfolio-menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333937;
+    padding: 8px 15px;
+    background-color: #EBC884;
+    margin: 0 5px;
+    border-radius: 4px;
+}
+
+.portfolio-menu ul li:hover a,
+.portfolio-menu ul .active a {
+	background-color: #FFF;
+}
+.portfolio-menu ul .active a {
+	background-color: #FFF;
+}
+.box-part {
+    padding: 80px 0;
+}
+.portfolio h3 {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: normal;
+}
+.portfolio .button {
+    text-decoration: none;
+    border-bottom: 5px solid #c86a40;
+    font-size: 20px;
+    background-color: #eb7d4b;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.portfolio .button:hover {
+    background: #87509C;
+    border-bottom: 5px solid #4F076B;
+}
+/* About Part CSS  */
+.about {
+    background-color: #D74681;
+    color: #fff;
+    padding: 40px 0 40px;
+}
+.about img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+/* Contact Part CSS  */
+.contact {
+    background-color: #3C549A;
+    color: #fff;
+    padding: 40px 0 40px;
+}
+.contact hr {
+    color: #273A72;
+}
+.contact .container {
+    width: 60%;
+}
+.contact-form input[type="text"] {
+	margin-right: 4%;
+	float: left;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+	width: 48%;
+	display: block;
+	box-sizing: border-box;
+	background: #273a71;
+	color: #FFFFFF;
+	border: none;
+	padding: 2%;
+}
+.contact-form textarea {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 20px 0;
+	background: #273a71;
+	color: #FFFFFF;
+	border: none;
+	padding: 2%;
+	min-height: 150px;
+} 
+.contact .button {
+    text-decoration: none;
+    border-bottom: 5px solid #30BAE8;
+    font-size: 20px;
+    background-color: #30BAE8;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.contact .button:hover {
+    background: #D74681;
+    border-bottom: 5px solid #832248;
+}
+.contact .btn {
+    margin: 0;
+    padding-bottom: 80px;
+}
+/* Footer Part CSS  */
+footer {
+    background-color: #344B8F;
+    padding: 40px 0 40px;
+}
+.footer-menu ul li {
+    display: inline-block;
+}
+.footer-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-menu ul li:hover a {
+    color: #30BAE8;
+}
+.footer-menu ul .current a {
+    color: #30BAE8;
+}
